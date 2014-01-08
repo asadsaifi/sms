@@ -1,0 +1,240 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Results</title>
+<style>
+.wrapper{
+width:1000px;
+height: 900px;
+margin:0 auto;
+}
+.content{
+	height:710px;
+	width:996px; 
+	margin: 0 auto;
+	background:white;
+	border-radius: 3px;
+	border: 1px solid gray;
+}
+.leftside{
+	height: 710px;
+	width: 235px;
+	float: left;
+	border: 1px solid gray;
+
+}
+.rightside{
+	width: 748px;
+	height: 710px;
+	float: right;
+	margin: 0 auto;
+}
+.rightsub{
+	
+	width: 500px;
+	
+	margin:100px;100px;300px;70px ;
+	
+}
+
+form{
+			width:500px;
+			
+			margin:20px auto;
+			background: white;
+			
+		}
+		
+
+
+}
+.text{
+
+	width:200px;
+	margin: 0 auto;
+
+}
+.text1{
+
+	width:600px;
+	margin: 0 auto;
+
+}
+
+	.inp{
+		
+			width:200px;
+			border: solid 2px rgba(1,2,2,0.5);
+
+		}
+
+	label{
+			width:200px;
+			display: inline-block;
+			margin-left:15px;
+						color:#3C6AD8;
+
+		}
+	
+	fieldset{
+			width:500px;
+			margin: auto;
+			border: solid 2px rgba(0,0,0,0.2);
+			border-radius: 10px;
+			margin-bottom: 20px;
+		}
+	.lftbar{height:220px; width:200px;
+		 border:1px solid gray; margin:0 auto;
+		 text-align:center; text-shadow:#232323;
+		 border-radius:10px}
+
+.lftbarit{height:20px; width:150px;
+		  margin:15px;
+		 text-align:center; text-shadow:#232323;
+		 border-radius:10px}
+
+.lftitm{height:70px; 
+	width:160px;
+	 margin:10px 20px 10px 20px;
+	 text-align:center;}
+
+.lftfb{height:360px; width:200px;
+		 border:1px solid gray; margin:0 auto;
+		 text-align:center; text-shadow:#232323;
+		 border-radius:10px}
+</style>
+</head>
+
+
+<body style="background-image:url(Images/f.png)">
+<div class="wrapper">  
+	<div><?php include("header.php")?> </div>
+
+	<div class="content">
+	<div class="leftside">
+	<div style="text-align:center;color:#3C6AD8"><h1> Results </h1></div>
+   
+		
+		<div class="lftfb">
+
+       
+       	<div class="lftitm"><a href="facebook.com">
+		 <img src="Images/facebook.jpg" width="158" height="63"/></a>
+		 </div>
+
+
+		<div><img  src="Images/leftbar.jpg" width="160"/></div>
+
+
+		 <div class="lftitm"><a href="twitter.com">
+		 <img src="Images/twitter1.png" width="159" height="64"/></a>
+		  </div>
+		 <div><img  src="Images/leftbar.jpg" width="160"/></div>
+		 
+		 
+		 
+		<div class="lftitm"><a href="youtube.com">
+		 <img src="Images/youtube.jpg" width="159" height="64"/></a></div>
+		 <div><img  src="Images/leftbar.jpg" width="160"/></div>
+		 
+
+		 
+		<div class="lftitm"><div><a href="flikr.com">
+		<img src="Images/flikr.jpg" width="158" height="65"/></a></div>
+		 </div></div>
+		 
+		 
+
+
+
+
+
+</div>
+
+	
+	<div class="rightside"><div class="rightsub">
+	     <div style="width:500px; height:100px; border:1px solid gray; margin:0 auto; border-radius:5px; background:#D8C9E8" >
+		  <h1 align="center" style="font-style:normal; color:#3C6AD8">View Results</h1></div>
+		 
+<form action="">
+
+	
+
+<br/>
+		<p>
+		  <label for="name">Student Roll No:</label>
+		<input type="text"id="roll" class="inp" name="roll"></p>
+		<p>
+		  <label for="name">Student Name:</label>
+		<input type="text"id="name" class="inp" name="name"></p>
+		
+		<p><label for="name">Class:</label>
+		<select name="Gender"  type="text" style="width:200px;" >
+        
+
+	
+          <option >Select Class</option>
+		    <option value="9th">9th</option>
+            <option value="10th">10th</option>
+          
+ 
+	</select></p>
+		
+	
+		
+			<p>
+<div align="center"  > <a href="resultview.php">view</a>	
+  <input name="submit" type="submit" style="background-color:#D8C9E8" value="Submit" width="50" height="60"></div>
+</div>
+		 </p>
+</form>
+</div></div>
+	<div><?php include("footer.php")?></div>
+	</div>
+	
+<script>
+
+var rollField = document.getElementById("roll");
+var nameField = document.getElementById("name");
+rollField.value = "Please enter your Roll No";
+nameField.value = "Please enter your name";
+
+rollField.onfocus = function() {
+	if ( rollField.value == "Please enter your Roll No") {
+		rollField.value = "";
+	}
+};
+
+rollField.onblur = function() {
+	if ( rollField.value == "") {
+		rollField.value = "Please enter your Roll No";
+	}
+};
+nameField.onfocus = function() {
+	if ( nameField.value == "Please enter your name") {
+		nameField.value = "";
+	}
+};
+
+nameField.onblur = function() {
+	if ( nameField.value == "") {
+		nameField.value = "Please enter your name";
+	}
+};
+
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
