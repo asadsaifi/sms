@@ -1,0 +1,202 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>About Us</title>
+<style>
+.wrapper{
+width:1000px;
+height:900px;
+margin:0 auto;
+}
+.content{
+	height:710px;
+	width:996px; 
+	margin: 0 auto;
+	background:white;
+	border: 1px solid gray;
+}
+.leftside{
+	height: 710px;
+	width: 235px;
+	float: left;
+	border: 1px solid gray;
+
+}
+.rightside{
+	width: 746px;
+	height: 710px;
+	float: right;
+	margin: 0 auto;
+}
+.rightsub{
+	height:650px;
+	width: 700px;
+	margin: 0 auto;
+margin: 40px 10px 10px 20px;
+
+}
+.rightsubt{
+	width:670px;
+	height:150px;
+	margin:30px 20px 20px 20px ; 
+
+}
+.rightsubpic{
+	height: 130px;
+	width: 130px;
+	float: right;
+
+	border: 1px solid gray;
+}
+			
+.clear{clear: both;}
+
+.ltlink{
+
+	background-color: red;
+	border: 1px solid gray;
+}
+		  
+.lftbar{height:220px; width:200px;
+		 border:1px solid gray; margin:0 auto;
+		 text-align:center; text-shadow:#232323;
+		 border-radius:10px}
+
+.lftbarit{height:20px; width:150px;
+		  margin:15px;
+		 text-align:center; text-shadow:#232323;
+		 border-radius:10px}
+
+.lftitm{height:70px; 
+	width:160px;
+	 margin:10px 20px 10px 20px;
+	 text-align:center;}
+
+.lftfb{height:360px; width:200px;
+		 border:1px solid gray; margin:0 auto;
+		 text-align:center; text-shadow:#232323;
+		 border-radius:10px}
+
+
+
+
+</style>
+</head>
+
+
+<body style="background-image:url(Images/f.png)">
+<div class="wrapper">
+	<div><?php include("header.php")?> </div>
+	<div class="content">
+		<div class="leftside">
+		
+		
+
+		<div style="text-align:center;color:#3C6AD8"><h1>About Us </h1></div>
+
+
+			<div class="lftbar">
+		
+       	<div class="lftbarit"><a href="about.php"><h3>History</h3></a></div>
+
+		 <div><img  src="Images/leftbar.jpg"/></div>
+       
+        <div class="lftbarit"><a href="about.php"><h3>Over Vision</h3></a></div>
+		 <div><img  src="Images/leftbar.jpg"/></div>
+       
+        <div class="lftbarit"><a href="about.php"><h3>Over Mission</h3> </a></div>
+		<div><img  src="Images/leftbar.jpg"/></div>
+       
+      <div class="lftbarit"><a href="about.php"><h3 style="font-size:18px">Principal Message</h3></a></div>
+ 
+       
+        </div>
+		
+		
+        <div class="clear"><br><br></div>
+
+
+
+
+		
+		<div class="lftfb">
+
+       
+       	<div class="lftitm"><a href="facebook.com">
+		 <img src="Images/facebook.jpg" width="158" height="63"/></a>
+		 </div>
+
+
+		<div><img  src="Images/leftbar.jpg" width="160"/></div>
+
+
+		 <div class="lftitm"><a href="twitter.com">
+		 <img src="Images/twitter1.png" width="159" height="64"/></a>
+			</div>
+		 <div><img  src="Images/leftbar.jpg" width="160"/></div>
+		 
+		 
+		 
+		<div class="lftitm"><a href="youtube.com">
+		 <img src="Images/youtube.jpg" width="159" height="64"/></a></div>
+		 <div><img  src="Images/leftbar.jpg" width="160"/></div>
+		 
+
+		 
+		<div class="lftitm"><div><a href="flikr.com">
+		<img src="Images/flikr.jpg" width="158" height="65"/></a></div>
+		 </div></div>
+		 
+		 
+
+
+
+
+
+</div>
+
+	
+	<div class="rightside">
+	
+	<div ="rightsub">
+	
+
+<div class="rightsubt" style="color: #381375; text-align:justify; padding-right:20px"><h1 style="font-style:normal; color:#3C6AD8"> History:</h1><p><h5> The idea to establish a World class international school in Lahore following the American Education Model came to existence in later half of 2005 by Dr Munr Kazmir founder and CEO of AISS.
+ The name American International School (AISS) was selected for the school.  
+ In Spring of  2006, Dr Kazmir and AISS Advisory Board based in New Jersey USA decided to 
+ establish a state of the art International Institution in Lahore Pakistan. The purpose 
+ was to provide American model quality education combined with Pakistani culture.</h5></p></div>
+
+<div class="rightsubt" style="color: #381375;text-align:justify; padding-right:20px"><h1 style="font-style:normal; color:#3C6AD8">Principal's Message :</h1><p><h5>Pakistani children and their counterparts in the United States. Our system is based upon knowledge of the basics coupled with creative thinking, exploration, and problem solving.  Our aim is to create well-rounded citizens of our world. Using traditional, as well as proven methods of creative instruction, we will provide for an individual educational opportunity for each student.Our curriculum is based on an American international model but also includes those beneficial elements of the Pakistani National Curriculum.</h5> </p></div>
+
+
+<div class="rightsubt" style="color: #381375;text-align:justify; padding-right:20px"><h1 style="font-style:normal; color:#3C6AD8">Mission:</h1><p><h5>AISS recognizes the importance of mutual respect and sharing ideas. AISS accomplishes this by cultivating values of respect, compassion and integrity in each student. Through innovative technology and state-of-the-art facilities, AISS allows students to complete their studies with intellectual, physical, social, and emotional strength, able to engage in the global community.We also build connections between American and Pakistani children in order to foster a mutually beneficial environment of global learning.</h5></p></div>
+
+<div class="rightsubt" style="color: #381375;text-align:justify; padding-right:20px"><h1 style="font-style:normal; color:#3C6AD8">Vision:</h1><p><h5>We at AISS are committed to providing the highest quality education for the children of Pakistan. This program promotes the growth of all students, and will inspire, challenge, and nurture our students, their families, and our staff.</h5></p></div>	
+
+	
+	
+	
+	
+	
+	
+	
+	</div>
+	
+	</div>
+
+
+
+
+
+
+
+
+	
+</div>
+	
+	<div><?php include("footer.php")?></div>
+	</div>
+</body>
+</html>
+
