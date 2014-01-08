@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Php Simple Login Form</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="containt" align="center" style="background-color:#D6E2EE; width:300px; margin-left:500px;">
+  <form action="login.php" method="post">
+<div id="header"><h2 class="sansserif">Admin Login</h2></div>
+ <table>
+             
+        <tr>
+            <td>Enter Username:</td>
+            <td> <input type="text" name="username" size="20"></td>
+        </tr>
+             
+        <tr>
+            <td>Enter Password:</td>
+            <td><input type="password" name="password" size="20"></td>
+        </tr>
+        <tr>
+             <td><input type="submit" value="Log In"></td>
+             <td></td>
+        </tr>
+ </table>
+</form>
+</div>
+</body>
+</html>
